@@ -13,7 +13,7 @@ fun main() {
     println(cuenta)
 
     try {
-        cuenta.retirar(100.0)  // aquí debería saltar la excepción
+        cuenta.retirar(100.0)
     } catch (e: Exception) {
         println("Error al retirar: ${e.message}")
     }
@@ -25,5 +25,14 @@ fun main() {
     coche.registrarViaje(100.0)
 
     println(coche)
+
+    val libro = Libro("Hola", "Yo")
+    println(libro)
+
+    try {
+        val libro2 = Libro("Hola2", "")
+    } catch (e: IllegalArgumentException) {
+        println("Error al crear libro: ${e.message}")
+    }
 
 }
