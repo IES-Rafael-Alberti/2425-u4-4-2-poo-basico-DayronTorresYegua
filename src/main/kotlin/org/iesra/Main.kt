@@ -35,4 +35,17 @@ fun main() {
         println("Error al crear libro: ${e.message}")
     }
 
+    val estudiante = Estudiante("Yo")
+
+    estudiante.nota = 7.0
+
+    println(estudiante)
+
+    try {
+        val estudiante2 = Estudiante("Juan")
+
+        estudiante2.nota = 11.0
+    } catch (e: IllegalArgumentException) {
+        println("Error al crear estudiante: ${e.message}")
+    }
 }
