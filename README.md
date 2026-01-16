@@ -36,12 +36,7 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ## Desarrollo de la Actividad
 
-### Descripción del Desarrollo
-
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
-
 ### Código Fuente
-
 
 - Ejercicio 1 - CuentaBancaria
 
@@ -66,8 +61,3 @@ https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-DayronTorresYegua/b
 - Main
 
 https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-DayronTorresYegua/blob/2e19cbb463a2ab87b9287449dcf97945307c05f9/src/main/kotlin/org/iesra/Main.kt#L1-L76
-
-### Ejemplos de Ejecución
-
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
