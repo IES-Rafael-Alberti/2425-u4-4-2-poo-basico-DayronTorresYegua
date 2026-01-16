@@ -48,4 +48,29 @@ fun main() {
     } catch (e: IllegalArgumentException) {
         println("Error al crear estudiante: ${e.message}")
     }
+
+
+
+    val producto = Producto("Boli", 10.0, 50)
+    println(producto)
+
+    producto.vender(10)
+    println(producto)
+
+    producto.reabastecer(30)
+    println(producto)
+
+    try {
+        val producto2 = Producto("Teclado", 1.0 , -10)
+    } catch (e: IllegalArgumentException) {
+        println("Error al crear producto: ${e.message}")
+    }
+
+    try {
+        val producto3 = Producto("Raton", -1.0 , 10)
+    } catch (e: IllegalArgumentException) {
+        println("Error al crear producto: ${e.message}")
+    }
+
+
 }
