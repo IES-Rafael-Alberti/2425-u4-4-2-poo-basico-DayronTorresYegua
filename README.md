@@ -25,29 +25,14 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ## Descripción de la Actividad
 
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+- La actividad consiste en el desarrollo de actividades relacionadas con la POO, en la cual tendremos que crear clases y modificarlas
 
 ## Instrucciones de Compilación y Ejecución
 
 1. **Requisitos Previos:**
 
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
-2. **Pasos para Compilar el Código:**
-
-   ```bash
-   [Comando para compilar el código]
-   ```
-3. **Pasos para Ejecutar el Código:**
-
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
-4. **Ejecución de Pruebas:**
-
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
-   ```
+   - Kotlin
+   - InteliJ Idea
 
 ## Desarrollo de la Actividad
 
@@ -57,16 +42,32 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ### Código Fuente
 
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.kt` o algún enlace directo.]
 
-[Si hay varios ejercicios, habrá una documentación, por cada uno de los ejercicios.]
-[Por cada ejercicio, habrá enlaces embebidos de código a las clases principales y programa principal `main` ]
+- Ejercicio 1 - CuentaBancaria
+
+https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-DayronTorresYegua/blob/2e19cbb463a2ab87b9287449dcf97945307c05f9/src/main/kotlin/org/iesra/CuentaBancaria.kt#L1-L23
+
+- Ejercicio 2 - Vehiculo
+
+https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-DayronTorresYegua/blob/2e19cbb463a2ab87b9287449dcf97945307c05f9/src/main/kotlin/org/iesra/Vehiculo.kt#L1-L14
+
+-  Ejercicio 3 - Libro
+
+https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-DayronTorresYegua/blob/2e19cbb463a2ab87b9287449dcf97945307c05f9/src/main/kotlin/org/iesra/Libro.kt#L1-L19
+
+- Ejercicio 4 - Estudiante
+
+https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-DayronTorresYegua/blob/2e19cbb463a2ab87b9287449dcf97945307c05f9/src/main/kotlin/org/iesra/Estudiante.kt#L1-L14
+
+- Ejercicio 5 - Producto
+
+https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-DayronTorresYegua/blob/2e19cbb463a2ab87b9287449dcf97945307c05f9/src/main/kotlin/org/iesra/Producto.kt#L1-L23
+
+- Main
+
+https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-DayronTorresYegua/blob/2e19cbb463a2ab87b9287449dcf97945307c05f9/src/main/kotlin/org/iesra/Main.kt#L1-L76
 
 ### Ejemplos de Ejecución
 
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
 - **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
-
-### Resultados de Pruebas
-
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
